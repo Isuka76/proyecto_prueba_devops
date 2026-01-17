@@ -12,5 +12,5 @@ jobs:
    -name: ejecutar un mensaje de bienvenida
     run: echo "HOLA ISA"
   # paso2: mostrar fecha actual
-    -name: mostrar fecha
-     run: date
+   -name: mostrar fecha
+    run: date

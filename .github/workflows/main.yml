@@ -1,0 +1,16 @@
+name:Mi primer workflow de git hub actions
+#controla cuando se ejecutará el workflow
+on.
+ push:
+  branches:["main"]
+pull_request:
+branches: ["main"]
+jobs.
+ saludo:#el tipo...
+ steps:
+  #paso1 : imprimir unn mensaje por consola
+  -name:ejecutar un mensaje de bienvenida
+   run::echo "HOLA ISA"
+  #paso2:mostrar fecha actual
+  -name:mostrar fecha
+  run:date

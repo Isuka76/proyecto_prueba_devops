@@ -10,8 +10,8 @@ jobs:
   runs-on: ubuntu-latest
   steps:
    # paso1: imprimir un mensaje por consola
-   -name: ejecutar un mensaje de bienvenida
+   -name: ejecutar un mensaje de bienvenida.
     run: echo "HOLA ISA"
    # paso2: 
-   -name: mostrar fecha
-    run: date
+    -name: mostrar fecha
+     run: date
